@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    /* text-align: center; */
+}
+
+/* class selector: */
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+.blue{
+    background: skyblue;
+}
+
+.pink{
+    background: rgb(238, 105, 187);
+}
+
+.orange{
+    background: orange;
+}
+
+.header{
+    background: #5f5f5f;
+    color: #f1f1f1;
+    padding:20px;
+    font-size: 30px;
+    /* margin:200px 20px; */
+    margin-bottom: 16px;
+}
+
+/* 
+first, get rid of the defaults:
+*/
+
+.header-link{
+    color: white;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+/* two classes combo*/ 
+.btn.red{
+}
+
+.btn{
+    padding: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.red{
+    background: #f44336;
+    color: white;
+}
+
+/* pseudo-selector - selects a state*/
+.red.btn:hover{
+    background: #ff0044;
+}
+
+
+a {
+    color: white;
+    background:#4CAF50;
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a:hover{
+ background:#FFF;
+ color:#8d8d8d;
+}
+
+
+/* .sidebar  or .main-content*/
+.sidebar, .main-content{
+    display: inline-block;
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.main-content{
+    width: 80%;
+}
