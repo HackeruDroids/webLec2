@@ -91,3 +91,36 @@ a:hover{
 .main-content{
     width: 80%;
 }
+
+
+.container{
+    padding: 0 100px;
+}
+
+/* box shadow! */
+.card{
+    font-family: 'nosuchfont', 'Suez One', serif;    
+    background: #efefef;
+    padding: 60px;
+    margin:20px;
+    box-shadow: 5px 10px 15px #bbb;
+}
+
+
+.green{
+    border-left: 4px solid #4CAF50;
+    padding-left: 8px;
+    direction: rtl;
+}
+
+.rounded{
+    border: 5px solid #eee;
+    border-radius: 8px;
+}
+
+
+ 
+.wide{
+    width: 100px;
+}
+ 
